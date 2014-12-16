@@ -20,6 +20,6 @@ setup(
     author='Nikolay <Werevolff> Dolganov',
     author_email='sirnikolasd@yandex.ru',
     url='https://github.com/werevolff/django_cms_seotools',
-    packages=['djangocms_seotools'],
+    packages=['djangocms_seotools', 'djangocms_seotools.tests'],
     install_requires=reqs
 )
